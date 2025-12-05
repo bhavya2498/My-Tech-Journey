@@ -1,0 +1,17 @@
+# Day 1 - List Comprehensions
+
+# 1. Squares from 1 to 10
+squares = [x**2 for x in range(1, 11)]
+
+# 2. Even numbers from 1 to 20
+evens = [x for x in range(1, 21) if x % 2 == 0]
+
+# 3. First letters of fruit names
+fruits = ["apple", "banana", "cherry"]
+first_letters = [f[0] for f in fruits]
+
+# 4. Convert all words to uppercase
+uppercase_words = [w.upper() for w in fruits]
+
+# 5. Numbers divisible by 3
+div_by_3 = [x for x in range(1, 51) if x % 3 == 0]
